@@ -1,0 +1,7 @@
+interface:
+  display_name: "发布小红书每日草稿"
+  short_description: "读取每日 JSON，在 Codex 内置浏览器 保存小红书草稿"
+  default_prompt: "使用 $xhs-browser-publish，读取已生成的每日 JSON，在 Codex 内置浏览器 按记录保存小红书草稿，不立即发布。"
+
+policy:
+  allow_implicit_invocation: true
