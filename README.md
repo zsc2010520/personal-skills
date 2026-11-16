@@ -12,12 +12,12 @@
 | --- | --- |
 | [aep-query-service-sql](skills/aep/aep-query-service-sql/SKILL.md) | 编写、审查和修复 Adobe Experience Platform Query Service 的 SQL：嵌套 XDM 字段、去重、写回数据集、增量加载和排错 |
 
-### 小红书
+### 小红书（`skills/xiaohongshu/`）
 
 | 技能 | 用途 |
 | --- | --- |
-| [xhs-browser-publish](skills/xhs-browser-publish/SKILL.md) | 读取已准备的 JSON 文案，通过 Codex 内置浏览器上传素材并保存小红书草稿 |
-| [xhs-browser-note-count](skills/xhs-browser-note-count/SKILL.md) | 按自然月统计小红书账号图文、视频和总发布数量，保存逐条明细 |
+| [xhs-browser-publish](skills/xiaohongshu/xhs-browser-publish/SKILL.md) | 读取已准备的 JSON 文案，通过 Codex 内置浏览器上传素材并保存小红书草稿 |
+| [xhs-browser-note-count](skills/xiaohongshu/xhs-browser-note-count/SKILL.md) | 按自然月统计小红书账号图文、视频和总发布数量，保存逐条明细 |
 
 ## 安装
 
