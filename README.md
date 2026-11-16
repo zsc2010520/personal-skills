@@ -11,6 +11,10 @@
 | 技能 | 用途 |
 | --- | --- |
 | [aep-query-service-sql](skills/aep/aep-query-service-sql/SKILL.md) | 编写、审查和修复 Adobe Experience Platform Query Service 的 SQL：嵌套 XDM 字段、去重、写回数据集、增量加载和排错 |
+| [aep-xdm-schema-design](skills/aep/aep-xdm-schema-design/SKILL.md) | 设计和评审 XDM schema：实体分类、身份设计、字段与校验、Profile 启用规划、不可逆操作清单 |
+| [aep-ingestion-troubleshooting](skills/aep/aep-ingestion-troubleshooting/SKILL.md) | 排查数据摄入：批次失败、schema 校验、Data Prep 映射、数据没进 Profile、行数对不上 |
+| [aep-audience-troubleshooting](skills/aep/aep-audience-troubleshooting/SKILL.md) | 排查 Audience 人数为 0 或不符合预期：评估方式、数据是否进 Profile、身份与 merge policy、规则逻辑 |
+| [aep-journey-troubleshooting](skills/aep/aep-journey-troubleshooting/SKILL.md) | 排查 Journey Optimizer 的 Journey：profile 没进入、卡在节点、消息没发出 |
 
 ### 小红书（`skills/xiaohongshu/`）
 
@@ -27,7 +31,7 @@
 
 ## 使用条件
 
-`aep-query-service-sql` 是纯文本说明，不依赖特定模型、Agent 或浏览器。
+`skills/aep/` 下的技能都是纯文本说明，不依赖特定模型、Agent 或浏览器。
 
 小红书相关技能使用已登录小红书的 Codex 内置浏览器，并遵循当前环境提供的浏览器工具文档。浏览器 API 和平台页面可能变化，运行时核验当前可用能力。
 
